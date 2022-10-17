@@ -1,141 +1,132 @@
-<table border="1">
-    <tr>
-        <th>fruits</th>
-        <th>poids</th>
-        <th>prix</th>
-    </tr>
-    <tr>
-        <td>kiwi</td>
-        <td>3kg</td>
-        <td>2€</td>
-    </tr>
-    <tr>
-        <td>banane</td>
-        <td>2kg</td>
-        <td>1€</td>
-    </tr>
-</table>
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>mon site</title>
+        <meta charset="UTF-8">
+        <link href="css/styles.css" rel="stylesheet">
+        
+    </head>
+    <form action="http://html-reponse.usertest.fr/reponse.php" method="post">
 
-<h1>mon tableau de rien du tour</h1>
+    <body>
+        <div>
+        <p class="1a">
+            Le service des transports d’une municipalité envisage de remanier l’offre de transports en 
+        commun. A cette fin, une enquête est menée auprès des usagers à l’aide du formulaire ci-dessous.
+        
+        </p>
+        <br>
+        
+               <fieldset>
+                <p>
+                
+                <legend><strong>information personnelles</strong></legend>
+                   <br>
+                   <label for="genre">Genre :</label>
 
-<table border="2">
-    <tr>
-        <th colspan="3">titre</th>
+                        <label for="1">M</label>
 
+                        <input type="radio" name="genre" id="1" value="1">
 
-    </tr>
-    <tr>
-        <td>ligne1</td>
-        <td>ligne2</td>
-        <td>ligne3</td>
-    </tr>
-</table>
+                        <label for="2">F</label>
 
-<p>je mange le djai de qui </p>
+                        <input type="radio" name="genre" id="2" value="2" checked>
+                  </p>
 
+                  <p> <label for="age1">classe d'âge :</label>
+                    <select name="age" id="age1">
+                        <option value="moins de 20 ans">moins de 20 ans</option>
+                        <option value="20 a 39 ans(2039)">20 a 39 ans(2039)</option>
+                        <option value="40 a 59 ans (2059)">40 a 59 ans (2059)</option>
+                        <option value="60 ans ou plus(p60)">60 ans ou plus(p60)</option>
+                        
+                    </select>
 
+                  </p>
+                  <p>
+                   <label for="groupe" > groupe socloprotesslonnel :</label>
+                     <select name="groupe" id="groupe" >
 
-
-<table border="3">
-<tr>
-    <td rowspan="2">ligne1</td>
-    <td>ligne2</td>
-    <td rowspan="3">ligne3</td>
-</tr>
-<tr>
-    <td>ligne4</td>
-
-</tr>
-<tr>
-    <td>ligne5</td>
-    <td>ligne6</td>
-</tr>
-
-<h2>modia de aliman</h2>
-
-
-</table>
-
-
-<h4>ya ya ya ha ay ahy</h4>
-
-<table border="1">
-    <tr>
-        <th rowspan="2">pays</th>
-        <th rowspan="2">villes</th>
-        <th colspan="2">donnees</th>
-    </tr>
-
-
-    <tr>
-        <th>population</th>
-        <th>superficie</th>
-    </tr>
-
-
-    <tr>
-        <td rowspan="2">france</td>
-        <td>lion</td>
-        <td>484 344</td>
-        <td>48km<sub>2</sub></td>
-    </tr>
-
-    <tr>
-        <td>montpellier</td>
-        <td>257 351</td>
-        <td>57km<sup>2</sup></td>
-    </tr>
-    <tr>
-        <td rowspan="2">états-unis</td>
-        <td>denver</td>
-        <td>649 495</td>
-        <td>401km<sup>2</sup></td>
-    </tr>
-
-    <tr>
-        <td>détroit</td>
-        <td>706 585</td>
-        <td>359km<sup>2</sup></td>
-    </tr>
-    <tr>
-        <td>chine</td>
-        <td>changsha</td>
-        <td>7 044 118</td>
-        <td>11 818km<sup>2</sup></td>
-    </tr>
-
-    <tr>
-        <td>belgique</td>
-        <td>Ypres</td>
-        <td>35 242</td>
-        <td>131km<sup>2</sup></td>
-    </tr>
+                        <option value="Agriculteurs exploitants">Agriculteurs exploitants</option>
+                        <option value="Artisans,commerçants et chefs d'entreprise">Artisans,commerçants et chefs d'entreprise</option>
+                        <option value="cadres et professions et chefs d'entreprise">cadres et professions et chefs d'entreprise</option>
+                        <option value="professions intermediaires">professions intermediaires</option>
+                        <option value="Employés">Employés</option>
+                        <option value="ouvriers">ouvriers</option>
+                        <option value="retraites">retraites</option>
+                        <option value="Autre personnes sans activite professionnelle">Autre personnes sans activite professionnelle</option>
+                     </select>
+                  </p>
 
 
 
 
+                  <p><label for="code">code posta:</label>
+                    <input type="text required" id="code" placeholder="49000">
+
+                  </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend><strong>information sur les trajets domicile- travail</strong></legend>
+                    <p> 
+                        <label for="vehicule">véhicule principal pour les trajet domicile-travail :</label>
+                        <select name="vehicule" id="vehicule">
+                            <option value="Aucun (piéton)">Aucun (piéton)</option>
+                            <option value="Bicyclette(velo)">Bicyclette(velo)</option>
+                            <option value="deux roues motorisé(deux roues)">deux roues motorisé(deux roues)</option>
+                            <option value="Automobile(auto)">Automobile(auto)</option>
+                            <option value="Transports en commun (train;tram;bus;metro)">Transports en commun (train;tram;bus;metro)</option>
+
+                        </select>
+                    </p>
+
+                    <p>
+
+                        <label for="domicile1">distance domicile-travail :</label>
+                        <select name="domicile" id="domicile1">
+                            <option value="inferieure a 1 km(m1)">inferieure a 1 km(m1)</option>
+                            <option value="De 1 a 5 km (15)">De 1 a 5 km (15)</option>
+                            <option value="De 5 a 15 km(515)">De 5 a 15 km(515)</option>
+                            <option value="15km ou plus(p15)">15km ou plus(p15)</option>
+                            
+                        </select>
+                    </p>
+    
 
 
 
+                </fieldset>
+
+                <fieldset>
+                    <legend><strong>Axe d'amelioration des transports en commun</strong></legend>
+                    <p><input type="checkbox">temps de trajet trop longs <input type="checkbox">correspondances inadaptées<input type="checkbox">tarifs trop élevés</p>
+                    <p><input type="checkbox">respect des horaires <input type="checkbox">trop fort affluence<input type="checkbox">desserte insuffissante</p>
+                    <p><input type="checkbox">Amplitude horaire trop limitée  <input type="checkbox">confort insuffisant</p>
+
+                    <p class="dd">remarques ou observation sur le réseau de transports en commun <br>
+                        <textarea name="zone" id="zone2" cols="30" rows="10" placeholder="saisisser votre commentaire">zone</textarea></p>
+                    
+
+                    
+                    
+                </fieldset>
+                <fieldset>
+                    <legend><strong>merci de votre participation!</strong></legend>
+                    <button type="submit">Soumettre</button>
+                    <button type="reset">renisialiser</button>
+                </fieldset>
 
 
-
-    </table>
-
+                      
 
 
+            
+        
+           
+        </form>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       
+    </body>
+</html>
