@@ -1,0 +1,84 @@
+*{
+    padding: 0px ; margin: 0px;
+    list-style: none;
+    text-decoration:none ;
+}
+
+
+nav.nav{
+    background-color: darkorange;
+    width: 100%;
+}
+
+div.divn{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 30px ;
+}
+
+/***menu*****/
+nav.nav div.divn div.menu li{
+    display:inline-block ;
+
+}
+
+nav.nav div.divn a{
+    color: white;
+}
+
+nav.nav div.divn div.menu ul{
+    padding: 3px 10px;
+}
+nav.nav div.divn div.menu li{
+    margin-left:  10px;
+}
+/*****traitement du logo g*****/
+
+div.divn div.logo a{
+   font-size: 25px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+div.divn div.logo span{
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+div.divn div.menu a:hover{
+    color: black;transition: 0.5s;
+}
+/***section****/
+
+section{
+    height: 1000px;
+    background: url(file:///C:/Users/33749/Desktop/portfolio/img/2%20-%20adult-beautiful-beauty.jpg);
+    background-size: 100%;
+}
+
+
+strong{
+    color: white;
+    
+}
+p{
+    color: white;font-size: 25px;
+}
+h1{
+    color: white;
+    font-size: 70px;
+    
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+
+
+
+
+   
+    

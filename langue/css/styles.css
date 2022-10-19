@@ -1,0 +1,110 @@
+*{
+    padding: 0px ; margin: 0px;
+    list-style: none;
+    text-decoration:none ;
+}
+
+
+nav.nav{
+    background-color: darkorange;
+    width: 100%;
+}
+
+div.divn{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 30px ;
+}
+
+/***menu*****/
+nav.nav div.divn div.menu li{
+    display:inline-block ;
+
+}
+
+nav.nav div.divn a{
+    color: white;
+}
+
+nav.nav div.divn div.menu ul{
+    padding: 3px 10px;
+}
+nav.nav div.divn div.menu li{
+    margin-left:  10px;
+}
+/*****traitement du logo g*****/
+
+div.divn div.logo a{
+   font-size: 25px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+div.divn div.logo span{
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+div.divn div.menu a:hover{
+    color: black;transition: 0.5s;
+}
+/***section****/
+
+section{
+    height: 700px;
+    background: url(file:///C:/Users/33749/Desktop/portfolio/img/2%20-%20adult-beautiful-beauty.jpg);
+    background-size: 100%;
+}
+
+
+div.gf{
+    padding-top: 200px;color: white;padding-left: 10 0px;
+}
+div.if{
+    color: white;
+}
+
+section div.gf div.text{
+    font-size: 35px;
+}
+section div.gf{
+    padding-top: 100px;
+    padding-left: 400px;
+    
+}
+
+section div.gf div.text1{
+    font-size: 45px;
+    font-weight: 500;color: orange;
+}
+
+section div.gf div.text2{
+    font-size: 25px;
+    font-weight: 500;
+}
+section div.gf div.text2 span{
+    font-size: 25px;
+    font-weight: 500;
+    color: orange;
+}
+
+section div.gf div.text3 a{
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+
+}
+section div.gf div.text3{
+    margin-top: 20px;
+}
+section div.gf div.text3 a:hover{
+    background: none;
+}
+/***section 1****/
+
+
+
+   
+    
